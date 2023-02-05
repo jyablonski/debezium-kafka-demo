@@ -5,11 +5,10 @@ GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicator' IDENTIFIED BY
 GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium' IDENTIFIED BY 'dbz';
 
 -- Create the database that we'll use to populate data and watch the effect in the binlog
+-- the 'mysqluser'@'%'; syntax means the mysqluser user from any valid host.
+-- GRANT ALL PRIVILEGES ON books.authors  TO 'mysqluser'@'localhost'; this would limit access to that user to only locally.
 CREATE DATABASE demo;
 GRANT ALL PRIVILEGES ON demo.* TO 'mysqluser'@'%';
-
--- grant all privileges on all databases to same user
--- GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%';
 
 use demo;
 

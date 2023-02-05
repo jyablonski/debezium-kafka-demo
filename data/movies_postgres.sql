@@ -1,6 +1,15 @@
 CREATE SCHEMA dbz_schema;
+-- default is public; we're changing it to the dbz_schema we just created
 SET search_path TO dbz_schema;
 
+-- `ALTER TABLE movies REPLICA IDENTITY FULL;`
+-- this is a crutch used for tables with no primary key, so probably avoid it.
+
+-- on rds this wont work, have to alter parameter_group -> rds.logical_replication and set it to 1 and master user must give `rds_replication` access to 
+--    the replication role
+
+-- default here is `replica`.  `minimal` generates the least amount of WAL volume, much less logging only for disaster recovery.
+-- logical gives more info to grab the actual data changes.
 ALTER SYSTEM SET wal_level = logical;
 ALTER ROLE postgres WITH REPLICATION;
 
