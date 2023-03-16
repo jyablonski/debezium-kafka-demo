@@ -288,4 +288,4 @@ insert only w/ no auto.create doesnt work either because of quote issue that i c
 - You can set `delete.handling.mode = rewrite` which adds a _deleted column to the tables, and when that record gets deleted an "update" event happens which sets this _deleted column to true so you can filter it out downstream later on.
 - If you leave tombstones on it breaks shit because certain columns aren't supposed to be null or maybe it's the schema registry that breaks it, i dont know.  so i have to set drop tombstones to true.
 
-Version: 0.0.3
+Version: 0.0.4
