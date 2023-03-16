@@ -12,10 +12,14 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "database.dbname" : "postgres",
         "database.server.name": "asgard_postgres",
         "schema.include.list": "dbz_schema",
+        "table.whitelist": "dbz_schema.movies",
         "plugin.name": "pgoutput",
         "include.schema.changes": "true",
+        "snapshot.mode": "never",
         "transforms": "unwrap,dropTopicPrefix",
         "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+        "transforms.unwrap.drop.tombstones": "true",
+        "transforms.unwrap.delete.handling.mode":"rewrite",
         "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
         "transforms.dropTopicPrefix.regex":"asgard_postgres.dbz_schema.(.*)",
         "transforms.dropTopicPrefix.replacement":"$1",
@@ -23,7 +27,7 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "key.converter.schemas.enable": "false",
         "value.converter": "org.apache.kafka.connect.json.JsonConverter",
         "value.converter.schemas.enable": "false",
-        "log.retention.minutes": "5"
+        "log.retention.hours": "120"
     }'
 
 curl -i -X PUT -H "Accept:application/json" \
