@@ -1,7 +1,7 @@
 # Debezium
-Practice Repo with Debezium which spins up MySQL, Kafka, and a Debezium Client to tap into the Bin Log and perform CDC on all database changes, and writes them to S3 every 60 seconds.
+Practice Repo with Debezium which spins up MySQL, Postgres, Kafka, Kafka Connect, Kafka UI, and a Python Producer to test CDC Implementations with Debezium.
 
-The Example connects to 2 separate Tables, builds 2 separate Kafka Topics, and writes out all changes to 2 separate Kafka S3 Sinks using 1 Source Connector + 1 Sink Connector.  You can adapt this example to include more tables as needed, all while using the same connector.
+The Example connects to 2 separate Tables, builds 2 separate Kafka Topics, and writes out all changes to 2 separate Kafka S3 Sinks using 1 Source Connector + 1 Sink Connector.  The Python Producer writes SQL Records to the `second_movies` table in Postgres every 5 seconds to test a real-time CDC use case. You can adapt the connectors to include more tables as needed for either MySQL or Postgres.
 
 ## Steps
 1. Run `docker-compose up`.

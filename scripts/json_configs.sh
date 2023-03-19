@@ -12,7 +12,7 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "database.dbname" : "postgres",
         "database.server.name": "asgard_postgres",
         "schema.include.list": "dbz_schema",
-        "table.whitelist": "dbz_schema.movies",
+        "table.whitelist": "dbz_schema.second_movies",
         "plugin.name": "pgoutput",
         "include.schema.changes": "true",
         "snapshot.mode": "never",

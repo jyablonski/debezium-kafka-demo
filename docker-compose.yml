@@ -7,6 +7,8 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
+    networks: 
+      - dbz_network
 
   broker:
     image: confluentinc/cp-kafka:5.4.1
@@ -28,6 +30,8 @@ services:
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 100
       KAFKA_CONFLUENT_LICENSE_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_CONFLUENT_TOPIC_REPLICATION_FACTOR: 1
+    networks: 
+      - dbz_network
 
   schema-registry:
     image: confluentinc/cp-schema-registry:5.4.1
@@ -40,6 +44,8 @@ services:
     environment:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: zookeeper:2181
+    networks: 
+      - dbz_network
 
   kafka-connect:
     image: confluentinc/cp-kafka-connect-base:5.4.1
@@ -97,6 +103,8 @@ services:
         /etc/confluent/docker/run & 
         #
         sleep infinity
+    networks: 
+      - dbz_network
 
   mysql:
     image: debezium/example-mysql:1.2
@@ -109,6 +117,8 @@ services:
       - MYSQL_PASSWORD=mysqlpw
     volumes:
       - ${PWD}/data/movies_mysql.sql:/docker-entrypoint-initdb.d/z99_dump.sql
+    networks: 
+      - dbz_network
 
   postgres:
     image: postgres:11-alpine
@@ -121,6 +131,8 @@ services:
      - POSTGRES_DB=postgres
     volumes:
       - ${PWD}/data/movies_postgres.sql:/docker-entrypoint-initdb.d/z99_dump.sql
+    networks: 
+      - dbz_network
 
   ksqldb:
     image: confluentinc/ksqldb-server:0.7.1
@@ -156,3 +168,24 @@ services:
       KAFKA_CLUSTERS_0_SCHEMAREGISTRY: http://schema-registry:8081
       KAFKA_CLUSTERS_0_KAFKACONNECT_0_NAME: first
       KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kafka-connect:8083
+    networks: 
+      - dbz_network
+
+  python-producer:
+    build:
+      context: ./
+      dockerfile: python_producer/Dockerfile
+    image: python_producer:latest
+    container_name: python-producer
+    depends_on:
+      - postgres
+    restart: on-failure
+    volumes:
+      - ${PWD}/example.log:/home/appuser/example.log
+    networks: 
+      - dbz_network
+    links:
+      - postgres:postgres
+
+networks:
+  dbz_network:
