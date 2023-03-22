@@ -31,3 +31,884 @@
 [INFO] 2023-03-19 07:25:09 PM Writing 1 second_movies rows to second_movies to SQL
 [INFO] 2023-03-19 07:25:14 PM Generating payload 3529
 [INFO] 2023-03-19 07:25:14 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-19 11:35:33 PM STARTING SCRIPT ...
+[INFO] 2023-03-19 11:35:33 PM SQL Engine to schema: dbz_schema Successful
+[INFO] 2023-03-19 11:35:33 PM Generating payload 3088
+[ERROR] 2023-03-19 11:35:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:35:38 PM Generating payload 4248
+[ERROR] 2023-03-19 11:35:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:35:43 PM Generating payload 6495
+[ERROR] 2023-03-19 11:35:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:35:48 PM Generating payload 363
+[ERROR] 2023-03-19 11:35:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:35:53 PM Generating payload 6522
+[ERROR] 2023-03-19 11:35:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:35:58 PM Generating payload 2124
+[ERROR] 2023-03-19 11:35:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:03 PM Generating payload 762
+[ERROR] 2023-03-19 11:36:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:08 PM Generating payload 5585
+[ERROR] 2023-03-19 11:36:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:13 PM Generating payload 4798
+[ERROR] 2023-03-19 11:36:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:18 PM Generating payload 5214
+[ERROR] 2023-03-19 11:36:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:23 PM Generating payload 3148
+[ERROR] 2023-03-19 11:36:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:28 PM Generating payload 2403
+[ERROR] 2023-03-19 11:36:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:33 PM Generating payload 325
+[ERROR] 2023-03-19 11:36:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:38 PM Generating payload 5344
+[ERROR] 2023-03-19 11:36:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:43 PM Generating payload 1415
+[ERROR] 2023-03-19 11:36:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:48 PM Generating payload 1078
+[ERROR] 2023-03-19 11:36:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:53 PM Generating payload 9094
+[ERROR] 2023-03-19 11:36:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:36:58 PM Generating payload 812
+[ERROR] 2023-03-19 11:36:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:03 PM Generating payload 3042
+[ERROR] 2023-03-19 11:37:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:08 PM Generating payload 5004
+[ERROR] 2023-03-19 11:37:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:13 PM Generating payload 518
+[ERROR] 2023-03-19 11:37:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:18 PM Generating payload 3513
+[ERROR] 2023-03-19 11:37:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:23 PM Generating payload 2177
+[ERROR] 2023-03-19 11:37:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:28 PM Generating payload 8551
+[ERROR] 2023-03-19 11:37:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:33 PM Generating payload 466
+[ERROR] 2023-03-19 11:37:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:38 PM Generating payload 8626
+[ERROR] 2023-03-19 11:37:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:43 PM Generating payload 4680
+[ERROR] 2023-03-19 11:37:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:48 PM Generating payload 4850
+[ERROR] 2023-03-19 11:37:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:53 PM Generating payload 3970
+[ERROR] 2023-03-19 11:37:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:37:58 PM Generating payload 4154
+[ERROR] 2023-03-19 11:37:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:03 PM Generating payload 9218
+[ERROR] 2023-03-19 11:38:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:08 PM Generating payload 5858
+[ERROR] 2023-03-19 11:38:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:13 PM Generating payload 9281
+[ERROR] 2023-03-19 11:38:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:18 PM Generating payload 6781
+[ERROR] 2023-03-19 11:38:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:23 PM Generating payload 7037
+[ERROR] 2023-03-19 11:38:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:28 PM Generating payload 2885
+[ERROR] 2023-03-19 11:38:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:33 PM Generating payload 9770
+[ERROR] 2023-03-19 11:38:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:38 PM Generating payload 580
+[ERROR] 2023-03-19 11:38:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:43 PM Generating payload 468
+[ERROR] 2023-03-19 11:38:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:48 PM Generating payload 7449
+[ERROR] 2023-03-19 11:38:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:53 PM Generating payload 4030
+[ERROR] 2023-03-19 11:38:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:38:58 PM Generating payload 2776
+[ERROR] 2023-03-19 11:38:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:03 PM Generating payload 9506
+[ERROR] 2023-03-19 11:39:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:08 PM Generating payload 588
+[ERROR] 2023-03-19 11:39:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:13 PM Generating payload 4372
+[ERROR] 2023-03-19 11:39:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:18 PM Generating payload 2115
+[ERROR] 2023-03-19 11:39:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:23 PM Generating payload 4937
+[ERROR] 2023-03-19 11:39:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:28 PM Generating payload 5276
+[ERROR] 2023-03-19 11:39:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:33 PM Generating payload 9556
+[ERROR] 2023-03-19 11:39:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:38 PM Generating payload 3598
+[ERROR] 2023-03-19 11:39:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:43 PM Generating payload 5133
+[ERROR] 2023-03-19 11:39:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:48 PM Generating payload 2077
+[ERROR] 2023-03-19 11:39:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:53 PM Generating payload 8286
+[ERROR] 2023-03-19 11:39:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:39:58 PM Generating payload 7997
+[ERROR] 2023-03-19 11:39:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:03 PM Generating payload 1029
+[ERROR] 2023-03-19 11:40:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:08 PM Generating payload 5434
+[ERROR] 2023-03-19 11:40:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:13 PM Generating payload 4475
+[ERROR] 2023-03-19 11:40:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:18 PM Generating payload 5887
+[ERROR] 2023-03-19 11:40:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:23 PM Generating payload 4793
+[ERROR] 2023-03-19 11:40:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:28 PM Generating payload 8171
+[ERROR] 2023-03-19 11:40:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:33 PM Generating payload 4170
+[ERROR] 2023-03-19 11:40:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:38 PM Generating payload 1710
+[ERROR] 2023-03-19 11:40:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:43 PM Generating payload 8322
+[ERROR] 2023-03-19 11:40:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:48 PM Generating payload 6669
+[ERROR] 2023-03-19 11:40:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:53 PM Generating payload 2181
+[ERROR] 2023-03-19 11:40:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:40:58 PM Generating payload 7719
+[ERROR] 2023-03-19 11:40:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:03 PM Generating payload 5238
+[ERROR] 2023-03-19 11:41:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:08 PM Generating payload 9867
+[ERROR] 2023-03-19 11:41:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:13 PM Generating payload 136
+[ERROR] 2023-03-19 11:41:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:18 PM Generating payload 2665
+[ERROR] 2023-03-19 11:41:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:23 PM Generating payload 9956
+[ERROR] 2023-03-19 11:41:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:28 PM Generating payload 7331
+[ERROR] 2023-03-19 11:41:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:33 PM Generating payload 3661
+[ERROR] 2023-03-19 11:41:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:38 PM Generating payload 2974
+[ERROR] 2023-03-19 11:41:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:43 PM Generating payload 1210
+[ERROR] 2023-03-19 11:41:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:48 PM Generating payload 8408
+[ERROR] 2023-03-19 11:41:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:53 PM Generating payload 3922
+[ERROR] 2023-03-19 11:41:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:41:58 PM Generating payload 6936
+[ERROR] 2023-03-19 11:41:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:03 PM Generating payload 4527
+[ERROR] 2023-03-19 11:42:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:08 PM Generating payload 4385
+[ERROR] 2023-03-19 11:42:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:13 PM Generating payload 753
+[ERROR] 2023-03-19 11:42:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:18 PM Generating payload 1005
+[ERROR] 2023-03-19 11:42:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:23 PM Generating payload 9350
+[ERROR] 2023-03-19 11:42:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:28 PM Generating payload 5609
+[ERROR] 2023-03-19 11:42:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:33 PM Generating payload 6752
+[ERROR] 2023-03-19 11:42:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:38 PM Generating payload 382
+[ERROR] 2023-03-19 11:42:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:43 PM Generating payload 316
+[ERROR] 2023-03-19 11:42:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:48 PM Generating payload 3433
+[ERROR] 2023-03-19 11:42:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:53 PM Generating payload 625
+[ERROR] 2023-03-19 11:42:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:42:58 PM Generating payload 6293
+[ERROR] 2023-03-19 11:42:58 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:03 PM Generating payload 603
+[ERROR] 2023-03-19 11:43:03 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:08 PM Generating payload 7120
+[ERROR] 2023-03-19 11:43:08 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:13 PM Generating payload 3858
+[ERROR] 2023-03-19 11:43:13 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:18 PM Generating payload 773
+[ERROR] 2023-03-19 11:43:18 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:23 PM Generating payload 4436
+[ERROR] 2023-03-19 11:43:23 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:28 PM Generating payload 9822
+[ERROR] 2023-03-19 11:43:28 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:33 PM Generating payload 200
+[ERROR] 2023-03-19 11:43:33 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:38 PM Generating payload 9176
+[ERROR] 2023-03-19 11:43:38 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:43 PM Generating payload 2467
+[ERROR] 2023-03-19 11:43:43 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:48 PM Generating payload 4569
+[ERROR] 2023-03-19 11:43:48 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:53 PM Generating payload 6873
+[ERROR] 2023-03-19 11:43:53 PM SQL Write Script Failed, (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[INFO] 2023-03-19 11:43:58 PM Exiting out ...
+[INFO] 2023-03-22 11:17:21 PM STARTING SCRIPT ...
+[INFO] 2023-03-22 11:17:21 PM SQL Engine to schema: dbz_schema Successful
+[INFO] 2023-03-22 11:17:21 PM Generating payload 8734
+[INFO] 2023-03-22 11:17:21 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:26 PM Generating payload 2126
+[INFO] 2023-03-22 11:17:26 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:31 PM Generating payload 193
+[INFO] 2023-03-22 11:17:31 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:36 PM Generating payload 6645
+[INFO] 2023-03-22 11:17:36 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:41 PM Generating payload 8667
+[INFO] 2023-03-22 11:17:41 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:46 PM Generating payload 2946
+[INFO] 2023-03-22 11:17:46 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:51 PM Generating payload 7707
+[INFO] 2023-03-22 11:17:51 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:17:56 PM Generating payload 5282
+[INFO] 2023-03-22 11:17:56 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:01 PM Generating payload 7396
+[INFO] 2023-03-22 11:18:01 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:06 PM Generating payload 922
+[INFO] 2023-03-22 11:18:06 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:11 PM Generating payload 9089
+[INFO] 2023-03-22 11:18:11 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:16 PM Generating payload 7028
+[INFO] 2023-03-22 11:18:16 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:21 PM Generating payload 5152
+[INFO] 2023-03-22 11:18:21 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:26 PM Generating payload 5435
+[INFO] 2023-03-22 11:18:26 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:18:31 PM Generating payload 8787
+[ERROR] 2023-03-22 11:18:31 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8787, 'title': 'ortiztimothy@example.org', 'release_year': 1985, 'country': 'El Salvador', 'genres': 'Horror', 'actors': 'Benjamin Dunn', 'directors': 'Kevin Hull', 'composers': 'Amanda Turner', 'screenwriters': 'Tyler Smith', 'cinematographer': 'Luke Manning', 'production_companies': 'Payne Prairie'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:18:36 PM Generating payload 5553
+[ERROR] 2023-03-22 11:18:36 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 5553, 'title': 'stanleyrodney@example.org', 'release_year': 1982, 'country': 'Guinea', 'genres': 'Action', 'actors': 'Ashley Trujillo', 'directors': 'Cameron Sparks', 'composers': 'Michael Day', 'screenwriters': 'Michaela George', 'cinematographer': 'Chelsea Evans MD', 'production_companies': 'Patrick Light'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:18:41 PM Generating payload 3829
+[ERROR] 2023-03-22 11:18:41 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3829, 'title': 'lewisapril@example.org', 'release_year': 1977, 'country': 'Moldova', 'genres': 'Comedy', 'actors': 'Hannah Garcia', 'directors': 'Miguel Frey', 'composers': 'Joshua Mcbride', 'screenwriters': 'Joy Hooper', 'cinematographer': 'Ashley Stephenson', 'production_companies': 'Karen Road'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:18:46 PM Generating payload 3676
+[ERROR] 2023-03-22 11:18:46 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3676, 'title': 'kristen77@example.com', 'release_year': 1981, 'country': 'Haiti', 'genres': 'Horror', 'actors': 'Scott Lowery', 'directors': 'Tammy Frank', 'composers': 'Kaitlyn West', 'screenwriters': 'Tonya Branch', 'cinematographer': 'Brandon Welch', 'production_companies': 'Justin Greens'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:18:51 PM Generating payload 8278
+[ERROR] 2023-03-22 11:18:51 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8278, 'title': 'janet66@example.net', 'release_year': 2013, 'country': 'Kuwait', 'genres': 'Action', 'actors': 'Dr. Danielle Carter MD', 'directors': 'Daniel Gates', 'composers': 'Adrian Perkins', 'screenwriters': 'Lori Martinez', 'cinematographer': 'Julie Ellison MD', 'production_companies': 'Hayley Green'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:18:56 PM Generating payload 8329
+[ERROR] 2023-03-22 11:18:56 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8329, 'title': 'mariaburke@example.net', 'release_year': 1973, 'country': 'Equatorial Guinea', 'genres': 'Horror', 'actors': 'Paul Lewis', 'directors': 'Melissa Palmer', 'composers': 'Thomas Snyder', 'screenwriters': 'Daniel Hall', 'cinematographer': 'Scott Martin', 'production_companies': 'Tina Rue'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:01 PM Generating payload 4004
+[ERROR] 2023-03-22 11:19:01 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 4004, 'title': 'eric65@example.net', 'release_year': 1946, 'country': 'Brazil', 'genres': 'Horror', 'actors': 'Rachel Hughes', 'directors': 'Miranda Flores', 'composers': 'Daniel Wallace', 'screenwriters': 'John Moore', 'cinematographer': 'Elizabeth Thomas', 'production_companies': 'Mcclure Streets'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:06 PM Generating payload 5262
+[ERROR] 2023-03-22 11:19:06 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 5262, 'title': 'nguyenchristina@example.org', 'release_year': 2016, 'country': 'San Marino', 'genres': 'Comedy', 'actors': 'Charles Stewart', 'directors': 'Sandra Ruiz', 'composers': 'Tina Gutierrez', 'screenwriters': 'Gina Harrison', 'cinematographer': 'Jorge King', 'production_companies': 'Sabrina Club'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:11 PM Generating payload 5393
+[ERROR] 2023-03-22 11:19:11 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 5393, 'title': 'bryan04@example.com', 'release_year': 2014, 'country': 'Congo', 'genres': 'Horror', 'actors': 'Eric Edwards', 'directors': 'Christopher Suarez', 'composers': 'Robert Taylor', 'screenwriters': 'Debra Wilkinson', 'cinematographer': 'Matthew Moss', 'production_companies': 'Gay Oval'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:16 PM Generating payload 7323
+[ERROR] 2023-03-22 11:19:16 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 7323, 'title': 'laurapruitt@example.org', 'release_year': 2020, 'country': 'Monaco', 'genres': 'Action', 'actors': 'Daniel Rosario', 'directors': 'Karen Williams', 'composers': 'Scott Edwards PhD', 'screenwriters': 'Christopher Juarez', 'cinematographer': 'Laura Kim', 'production_companies': 'Mccoy Plains'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:21 PM Generating payload 3180
+[ERROR] 2023-03-22 11:19:21 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3180, 'title': 'zunigabryan@example.com', 'release_year': 1949, 'country': 'Seychelles', 'genres': 'Action', 'actors': 'Eric Scott', 'directors': 'Barbara Jackson', 'composers': 'Daniel Gordon', 'screenwriters': 'Jordan Anderson', 'cinematographer': 'Thomas Rose', 'production_companies': 'Dale Vista'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:26 PM Generating payload 2476
+[ERROR] 2023-03-22 11:19:26 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2476, 'title': 'jferrell@example.com', 'release_year': 2002, 'country': 'Ukraine', 'genres': 'Action', 'actors': 'Peter Munoz', 'directors': 'Heather Thompson', 'composers': 'Sierra Boyd', 'screenwriters': 'Marco Morse', 'cinematographer': 'Mrs. Debra Hall MD', 'production_companies': 'Adam Expressway'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:31 PM Generating payload 8886
+[ERROR] 2023-03-22 11:19:31 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8886, 'title': 'patrickmark@example.net', 'release_year': 1981, 'country': 'Tanzania', 'genres': 'Comedy', 'actors': 'Erin Thomas', 'directors': 'Nicholas Ford', 'composers': 'James Washington', 'screenwriters': 'Sarah Miller', 'cinematographer': 'John Fleming', 'production_companies': 'Walker Rest'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:36 PM Generating payload 1507
+[ERROR] 2023-03-22 11:19:36 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 1507, 'title': 'floyddarin@example.com', 'release_year': 2000, 'country': 'Estonia', 'genres': 'Horror', 'actors': 'Priscilla Smith', 'directors': 'Hunter Long', 'composers': 'Donna Villa', 'screenwriters': 'Justin Boyd', 'cinematographer': 'Michael Jones DVM', 'production_companies': 'Sandoval Mountain'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:41 PM Generating payload 8163
+[ERROR] 2023-03-22 11:19:41 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8163, 'title': 'maryrowe@example.com', 'release_year': 2014, 'country': 'Zambia', 'genres': 'Comedy', 'actors': 'Emily White', 'directors': 'Craig Bryant', 'composers': 'Megan Lopez', 'screenwriters': 'Gary Alexander', 'cinematographer': 'Jeanne Morgan', 'production_companies': 'George Lake'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:46 PM Generating payload 45
+[ERROR] 2023-03-22 11:19:46 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 45, 'title': 'donaldhodges@example.org', 'release_year': 1976, 'country': 'Uganda', 'genres': 'Action', 'actors': 'Gene Parker', 'directors': 'Jonathan Campbell', 'composers': 'Harold Benitez', 'screenwriters': 'Stephanie Brown', 'cinematographer': 'Taylor Nelson', 'production_companies': 'Molly Spring'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:51 PM Generating payload 8582
+[ERROR] 2023-03-22 11:19:51 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 8582, 'title': 'chenderson@example.org', 'release_year': 1946, 'country': 'Solomon Islands', 'genres': 'Comedy', 'actors': 'James Gallagher', 'directors': 'Brandon Silva', 'composers': 'David Dominguez', 'screenwriters': 'Sandra Wright', 'cinematographer': 'Kristina Huang', 'production_companies': 'Lopez Point'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:19:56 PM Generating payload 2490
+[ERROR] 2023-03-22 11:19:56 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2490, 'title': 'dillonjohn@example.net', 'release_year': 1975, 'country': 'Haiti', 'genres': 'Action', 'actors': 'Lindsey Howell', 'directors': 'Juan Sutton', 'composers': 'Lori Garcia', 'screenwriters': 'Jessica Miller', 'cinematographer': 'Haley Johnson', 'production_companies': 'Fox Key'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:01 PM Generating payload 4908
+[ERROR] 2023-03-22 11:20:01 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 4908, 'title': 'melody60@example.org', 'release_year': 1973, 'country': 'Puerto Rico', 'genres': 'Comedy', 'actors': 'Mackenzie Sullivan', 'directors': 'Johnny Johnson', 'composers': 'Jesus Kim', 'screenwriters': 'Dave Huber', 'cinematographer': 'John Rich', 'production_companies': 'Boyle Burgs'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:06 PM Generating payload 9924
+[ERROR] 2023-03-22 11:20:06 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 9924, 'title': 'awalker@example.net', 'release_year': 1967, 'country': 'New Zealand', 'genres': 'Comedy', 'actors': 'Mary Davis', 'directors': 'Sandy Ramirez', 'composers': 'Monica Nichols', 'screenwriters': 'Melody Peterson', 'cinematographer': 'Robert Sharp', 'production_companies': 'Kidd Street'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:11 PM Generating payload 3443
+[ERROR] 2023-03-22 11:20:11 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3443, 'title': 'stephanie64@example.com', 'release_year': 1984, 'country': "Lao People's Democratic Republic", 'genres': 'Horror', 'actors': 'Courtney Stewart', 'directors': 'Natasha Lopez', 'composers': 'Lance Rodriguez', 'screenwriters': 'Jonathan Smith', 'cinematographer': 'Edward Jenkins DDS', 'production_companies': 'Bailey Passage'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:16 PM Generating payload 9229
+[ERROR] 2023-03-22 11:20:16 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 9229, 'title': 'owenshunter@example.net', 'release_year': 2000, 'country': 'Costa Rica', 'genres': 'Comedy', 'actors': 'Briana Day', 'directors': 'Joseph Torres', 'composers': 'Jason Woods', 'screenwriters': 'Sandra Graham', 'cinematographer': 'Erin Carey', 'production_companies': 'Perez Keys'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:21 PM Generating payload 5585
+[ERROR] 2023-03-22 11:20:21 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 5585, 'title': 'christopherkramer@example.net', 'release_year': 1939, 'country': 'Serbia', 'genres': 'Action', 'actors': 'Sarah Mueller', 'directors': 'Valerie Gonzalez', 'composers': 'Tiffany Brewer', 'screenwriters': 'William Francis', 'cinematographer': 'Jason Manning', 'production_companies': 'Edwards Green'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:26 PM Generating payload 2589
+[ERROR] 2023-03-22 11:20:26 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2589, 'title': 'peter83@example.com', 'release_year': 1958, 'country': 'Senegal', 'genres': 'Comedy', 'actors': 'Michael Carroll', 'directors': 'Sherri Green', 'composers': 'Patricia Reese', 'screenwriters': 'Wendy Barrett', 'cinematographer': 'Sara Bentley', 'production_companies': 'Courtney Crescent'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:31 PM Generating payload 2070
+[ERROR] 2023-03-22 11:20:31 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2070, 'title': 'sanchezmariah@example.org', 'release_year': 1931, 'country': 'Malawi', 'genres': 'Horror', 'actors': 'Anthony Carlson', 'directors': 'Kristy Roberts', 'composers': 'Samantha Richardson', 'screenwriters': 'Ryan Campbell', 'cinematographer': 'Jacob Hardy', 'production_companies': 'Robinson Walks'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:36 PM Generating payload 4118
+[ERROR] 2023-03-22 11:20:36 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 4118, 'title': 'iwright@example.net', 'release_year': 1929, 'country': 'Georgia', 'genres': 'Comedy', 'actors': 'Jennifer Smith', 'directors': 'Rita Reynolds', 'composers': 'Mrs. Rebecca Harris DDS', 'screenwriters': 'Jennifer Caldwell', 'cinematographer': 'Deborah Williams', 'production_companies': 'Dawn Keys'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:41 PM Generating payload 34
+[ERROR] 2023-03-22 11:20:41 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 34, 'title': 'qscott@example.com', 'release_year': 1953, 'country': 'Korea', 'genres': 'Comedy', 'actors': 'Alicia Castaneda', 'directors': 'Jennifer Campos', 'composers': 'Virginia Daniels', 'screenwriters': 'Adrian Bowen', 'cinematographer': 'Laura Francis', 'production_companies': 'Tracey Cliffs'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:46 PM Generating payload 2919
+[ERROR] 2023-03-22 11:20:46 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2919, 'title': 'bbrock@example.com', 'release_year': 2007, 'country': 'Swaziland', 'genres': 'Action', 'actors': 'Jason Romero', 'directors': 'Kerri Green', 'composers': 'Hector Charles', 'screenwriters': 'Jason Hester', 'cinematographer': 'Kevin Medina', 'production_companies': 'Ethan Cove'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:51 PM Generating payload 2348
+[ERROR] 2023-03-22 11:20:51 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2348, 'title': 'wagnerheather@example.net', 'release_year': 1934, 'country': 'French Guiana', 'genres': 'Comedy', 'actors': 'Alexis Garrett', 'directors': 'Ashley Mosley', 'composers': 'Matthew Mason', 'screenwriters': 'Christopher Buckley', 'cinematographer': 'Vanessa Alvarez', 'production_companies': 'James Lodge'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:20:56 PM Generating payload 1562
+[ERROR] 2023-03-22 11:20:56 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 1562, 'title': 'hward@example.com', 'release_year': 2011, 'country': 'Hong Kong', 'genres': 'Comedy', 'actors': 'Amanda Richmond', 'directors': 'Matthew Bender', 'composers': 'Christopher Price', 'screenwriters': 'James Arias DDS', 'cinematographer': 'Sheri Howe', 'production_companies': 'Colleen Forest'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:21:01 PM Generating payload 3375
+[ERROR] 2023-03-22 11:21:01 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3375, 'title': 'zwilson@example.net', 'release_year': 1991, 'country': 'Libyan Arab Jamahiriya', 'genres': 'Horror', 'actors': 'Brittany Silva', 'directors': 'Arthur Rodgers', 'composers': 'Amy Johnson', 'screenwriters': 'Valerie Guzman', 'cinematographer': 'Derek Lopez', 'production_companies': 'Stephens Forest'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:21:06 PM Generating payload 2769
+[ERROR] 2023-03-22 11:21:06 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 2769, 'title': 'shawna08@example.com', 'release_year': 1941, 'country': 'United States Virgin Islands', 'genres': 'Horror', 'actors': 'April Williamson', 'directors': 'Timothy Schultz', 'composers': 'John Mcdowell', 'screenwriters': 'Mr. John Lynch', 'cinematographer': 'Lawrence Williams', 'production_companies': 'Kelly Village'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:21:11 PM Generating payload 3305
+[ERROR] 2023-03-22 11:21:11 PM SQL Write Script Failed, (psycopg2.errors.UndefinedColumn) column "production_companies" of relation "second_movies" does not exist
+LINE 1: ...ctors, composers, screenwriters, cinematographer, production...
+                                                             ^
+
+[SQL: INSERT INTO second_movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters, cinematographer, production_companies) VALUES (%(movie_id)s, %(title)s, %(release_year)s, %(country)s, %(genres)s, %(actors)s, %(directors)s, %(composers)s, %(screenwriters)s, %(cinematographer)s, %(production_companies)s)]
+[parameters: {'movie_id': 3305, 'title': 'staceypierce@example.com', 'release_year': 1952, 'country': 'Pakistan', 'genres': 'Comedy', 'actors': 'Heather Brown', 'directors': 'Deborah Young', 'composers': 'Michelle Burns', 'screenwriters': 'Mary Murphy', 'cinematographer': 'Brandon Norman', 'production_companies': 'Smith Gardens'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[INFO] 2023-03-22 11:23:13 PM STARTING SCRIPT ...
+[INFO] 2023-03-22 11:23:13 PM SQL Engine to schema: dbz_schema Successful
+[INFO] 2023-03-22 11:23:13 PM Generating payload 4116
+[INFO] 2023-03-22 11:23:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:18 PM Generating payload 4544
+[INFO] 2023-03-22 11:23:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:23 PM Generating payload 4766
+[INFO] 2023-03-22 11:23:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:28 PM Generating payload 8346
+[INFO] 2023-03-22 11:23:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:33 PM Generating payload 6616
+[INFO] 2023-03-22 11:23:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:38 PM Generating payload 741
+[INFO] 2023-03-22 11:23:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:43 PM Generating payload 5944
+[INFO] 2023-03-22 11:23:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:48 PM Generating payload 3907
+[INFO] 2023-03-22 11:23:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:53 PM Generating payload 8660
+[INFO] 2023-03-22 11:23:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:23:58 PM Generating payload 1051
+[INFO] 2023-03-22 11:23:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:03 PM Generating payload 9584
+[INFO] 2023-03-22 11:24:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:08 PM Generating payload 9456
+[INFO] 2023-03-22 11:24:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:13 PM Generating payload 420
+[INFO] 2023-03-22 11:24:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:18 PM Generating payload 4060
+[INFO] 2023-03-22 11:24:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:23 PM Generating payload 1359
+[INFO] 2023-03-22 11:24:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:28 PM Generating payload 731
+[INFO] 2023-03-22 11:24:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:33 PM Generating payload 180
+[INFO] 2023-03-22 11:24:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:38 PM Generating payload 300
+[INFO] 2023-03-22 11:24:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:43 PM Generating payload 6558
+[INFO] 2023-03-22 11:24:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:48 PM Generating payload 3567
+[INFO] 2023-03-22 11:24:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:53 PM Generating payload 7725
+[INFO] 2023-03-22 11:24:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:24:58 PM Generating payload 6650
+[INFO] 2023-03-22 11:24:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:03 PM Generating payload 6830
+[INFO] 2023-03-22 11:25:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:08 PM Generating payload 722
+[INFO] 2023-03-22 11:25:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:13 PM Generating payload 1924
+[INFO] 2023-03-22 11:25:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:18 PM Generating payload 8987
+[INFO] 2023-03-22 11:25:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:23 PM Generating payload 7021
+[INFO] 2023-03-22 11:25:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:28 PM Generating payload 7544
+[INFO] 2023-03-22 11:25:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:33 PM Generating payload 7308
+[INFO] 2023-03-22 11:25:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:38 PM Generating payload 1243
+[INFO] 2023-03-22 11:25:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:43 PM Generating payload 8197
+[INFO] 2023-03-22 11:25:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:48 PM Generating payload 8073
+[INFO] 2023-03-22 11:25:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:53 PM Generating payload 5268
+[INFO] 2023-03-22 11:25:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:25:58 PM Generating payload 1824
+[INFO] 2023-03-22 11:25:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:03 PM Generating payload 2123
+[INFO] 2023-03-22 11:26:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:08 PM Generating payload 6492
+[INFO] 2023-03-22 11:26:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:13 PM Generating payload 5932
+[INFO] 2023-03-22 11:26:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:18 PM Generating payload 9130
+[INFO] 2023-03-22 11:26:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:23 PM Generating payload 7647
+[INFO] 2023-03-22 11:26:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:28 PM Generating payload 8385
+[INFO] 2023-03-22 11:26:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:33 PM Generating payload 7335
+[INFO] 2023-03-22 11:26:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:38 PM Generating payload 4496
+[INFO] 2023-03-22 11:26:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:43 PM Generating payload 6173
+[INFO] 2023-03-22 11:26:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:48 PM Generating payload 8596
+[INFO] 2023-03-22 11:26:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:53 PM Generating payload 4998
+[INFO] 2023-03-22 11:26:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:26:58 PM Generating payload 3926
+[INFO] 2023-03-22 11:26:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:03 PM Generating payload 7444
+[INFO] 2023-03-22 11:27:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:08 PM Generating payload 7897
+[INFO] 2023-03-22 11:27:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:13 PM Generating payload 2149
+[INFO] 2023-03-22 11:27:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:18 PM Generating payload 835
+[INFO] 2023-03-22 11:27:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:23 PM Generating payload 7365
+[INFO] 2023-03-22 11:27:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:28 PM Generating payload 3688
+[INFO] 2023-03-22 11:27:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:33 PM Generating payload 1893
+[INFO] 2023-03-22 11:27:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:38 PM Generating payload 7481
+[INFO] 2023-03-22 11:27:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:43 PM Generating payload 6054
+[INFO] 2023-03-22 11:27:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:48 PM Generating payload 9546
+[INFO] 2023-03-22 11:27:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:53 PM Generating payload 1122
+[INFO] 2023-03-22 11:27:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:27:58 PM Generating payload 2661
+[INFO] 2023-03-22 11:27:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:03 PM Generating payload 4903
+[INFO] 2023-03-22 11:28:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:08 PM Generating payload 7985
+[INFO] 2023-03-22 11:28:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:13 PM Generating payload 520
+[INFO] 2023-03-22 11:28:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:18 PM Generating payload 90
+[INFO] 2023-03-22 11:28:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:23 PM Generating payload 1785
+[INFO] 2023-03-22 11:28:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:28 PM Generating payload 2795
+[INFO] 2023-03-22 11:28:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:33 PM Generating payload 1983
+[INFO] 2023-03-22 11:28:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:38 PM Generating payload 3323
+[INFO] 2023-03-22 11:28:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:43 PM Generating payload 1406
+[INFO] 2023-03-22 11:28:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:48 PM Generating payload 6090
+[INFO] 2023-03-22 11:28:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:53 PM Generating payload 7613
+[INFO] 2023-03-22 11:28:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:28:58 PM Generating payload 6620
+[INFO] 2023-03-22 11:28:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:03 PM Generating payload 9987
+[INFO] 2023-03-22 11:29:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:08 PM Generating payload 9588
+[INFO] 2023-03-22 11:29:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:13 PM Generating payload 6704
+[INFO] 2023-03-22 11:29:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:18 PM Generating payload 859
+[INFO] 2023-03-22 11:29:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:23 PM Generating payload 2742
+[INFO] 2023-03-22 11:29:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:28 PM Generating payload 7527
+[INFO] 2023-03-22 11:29:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:33 PM Generating payload 1269
+[INFO] 2023-03-22 11:29:33 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:38 PM Generating payload 3888
+[INFO] 2023-03-22 11:29:38 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:43 PM Generating payload 1501
+[INFO] 2023-03-22 11:29:43 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:48 PM Generating payload 2459
+[INFO] 2023-03-22 11:29:48 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:53 PM Generating payload 4257
+[INFO] 2023-03-22 11:29:53 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:29:58 PM Generating payload 9379
+[INFO] 2023-03-22 11:29:58 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:03 PM Generating payload 4593
+[INFO] 2023-03-22 11:30:03 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:08 PM Generating payload 8480
+[INFO] 2023-03-22 11:30:08 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:13 PM Generating payload 4747
+[INFO] 2023-03-22 11:30:13 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:18 PM Generating payload 142
+[INFO] 2023-03-22 11:30:18 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:23 PM Generating payload 4161
+[INFO] 2023-03-22 11:30:23 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:28 PM Generating payload 9050
+[INFO] 2023-03-22 11:30:28 PM Writing 1 second_movies rows to second_movies to SQL
+[INFO] 2023-03-22 11:30:33 PM Generating payload 3165
+[INFO] 2023-03-22 11:30:33 PM Writing 1 second_movies rows to second_movies to SQL

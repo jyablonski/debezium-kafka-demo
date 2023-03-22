@@ -82,9 +82,8 @@ services:
         # jdbc driver has to be in the same place where connector gets installed (usr/share/confluent-hub-components/conluentinc-kafka-connect-jdbc
         # dont need classpath if you do the above ^, if you dont do above then you need to provide classpath
     volumes:
-      - $PWD/connectors:/connectors
       - $PWD/aws_credentials:/root/.aws/credentials
-      - $PWD/connectors/snowflake-jdbc-3.13.25.jar:/usr/share/confluent-hub-components/confluentinc-kafka-connect-jdbc/lib/snowflake-jdbc-3.13.25.jar
+      - $PWD/jars/snowflake-jdbc-3.13.25.jar:/usr/share/confluent-hub-components/confluentinc-kafka-connect-jdbc/lib/snowflake-jdbc-3.13.25.jar
     command: 
       - bash 
       - -c 
@@ -94,9 +93,6 @@ services:
         confluent-hub install --no-prompt confluentinc/kafka-connect-s3:5.4.1
         confluent-hub install --no-prompt debezium/debezium-connector-mysql:1.9.3
         confluent-hub install --no-prompt debezium/debezium-connector-postgresql:1.9.3
-        confluent-hub install --no-prompt confluentinc/kafka-connect-aws-redshift:1.2.1
-        confluent-hub install --no-prompt snowflakeinc/snowflake-kafka-connector:1.8.1
-        confluent-hub install --no-prompt confluentinc/kafka-connect-jdbc:10.6.0
         confluent-hub install --no-prompt jcustenborder/kafka-connect-transform-common:0.1.0.58
         #
         echo "Launching Kafka Connect worker"
@@ -105,6 +101,11 @@ services:
         sleep infinity
     networks: 
       - dbz_network
+
+# old connectors i used
+# confluent-hub install --no-prompt confluentinc/kafka-connect-aws-redshift:1.2.1
+# confluent-hub install --no-prompt snowflakeinc/snowflake-kafka-connector:1.8.1
+# confluent-hub install --no-prompt confluentinc/kafka-connect-jdbc:10.6.0
 
   mysql:
     image: debezium/example-mysql:1.2
@@ -181,7 +182,7 @@ services:
       - postgres
     restart: on-failure
     volumes:
-      - ${PWD}/example.log:/home/appuser/example.log
+      - ${PWD}/python_producer/example.log:/home/appuser/example.log
     networks: 
       - dbz_network
     links:

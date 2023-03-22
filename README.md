@@ -124,6 +124,44 @@ Storage Class Formats:
     2. `io.confluent.connect.s3.format.json.JsonFormat`
     3. `io.confluent.connect.s3.format.avro.AvroFormat`
 
+
+# Debezium Config Options
+`connector.class` - The Installed Connector to use
+
+`tasks.max` - Max number of tasks for this connector. Defaults to 1, only use 1 for MySQL + Postgres
+
+`database.hostname` - IP Address or Hostname for the Postgres Database.
+
+`database.dbname` - The Database to connect to on the Server.
+
+`database.server.name` - A separate, internal name for Debezium to identify the Database.
+
+`schema.include.list` - Comma separated list of schemas you want to capture.  By default it captures every schema.
+
+`table.include.list` - If specified, it will only capture data for these tables.  Format is `schemaName.tableName`.
+
+`table.exclude.list` - Can alternatively exclude tables instead.  `table.include.list` and `table.exclude.list` cant both be set at the same time.
+
+`plugin.name` - Basically just put it to `pgoutput` at all times.
+
+`include.schema.changes` - Boolean which dictates whether to start using a new Topic once there's a schema change, or to use the existing one.
+
+`snapshot.mode` - Whether to do a `select *` from all records currently in the table.  It will incrementally grab these in chunks if there's a lot.
+
+`io.debezium.transforms.ExtractNewRecordState` - Flattens the message to only include the record after the NEW changes.  By default, Debezium will capture both the Old + New record state, but we only want the new one for CDC.
+
+`transforms.unwrap.drop.tombstones` - Creates a new column called `__deleted` to track when records are deleted.  Defaults to false unless a record is deleted.
+
+`transforms.unwrap.delete.handling.mode: rewrite` - When a record is deleted, Debezium will capture the record as it was and set the `__deleted` field to `true`.
+
+`transforms.dropTopicPrefix.type: org.apache.kafka.connect.transforms.RegexRouter` - Used to update a Topic's name.
+
+`transforms.dropTopicPrefix.regex` - Used to specify the structure for a Topic's name that you want to change.
+- `asgard_postgres.dbz_schema.(.*)` means it will remove `asgard_postgres.dbz_schema.` in the topic name and only keep the actual topic name (`.*`)
+
+`transforms.dropTopicPrefix.replacement` - Used to specify what to replace the filtered Regex with.  
+- `$1` means it captures the first part.  `$2` would capture the second part, if you were filtering 2 different parts of a regex out or something.
+
 # Debugging
 Make sure aws credentials are in the container
 `docker exec kafka-connect cat /root/.aws/credentials`
