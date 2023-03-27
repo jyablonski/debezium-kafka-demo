@@ -14,7 +14,7 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "schema.include.list": "dbz_schema",
         "table.whitelist": "dbz_schema.second_movies",
         "plugin.name": "pgoutput",
-        "include.schema.changes": "true",
+        "include.schema.changes": "false",
         "snapshot.mode": "never",
         "transforms": "unwrap,dropTopicPrefix",
         "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",

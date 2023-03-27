@@ -144,15 +144,15 @@ Storage Class Formats:
 
 `plugin.name` - Basically just put it to `pgoutput` at all times.
 
-`include.schema.changes` - Boolean which dictates whether to start using a new Topic once there's a schema change, or to use the existing one.
+`include.schema.changes` - Boolean which dictates whether to send DDL changes and send them to the a Kafka Topic w/ the same name as the database server ID.  Probably fine to set to false unless you actually plan to have a consumer read from this topic.
 
 `snapshot.mode` - Whether to do a `select *` from all records currently in the table.  It will incrementally grab these in chunks if there's a lot.
 
 `io.debezium.transforms.ExtractNewRecordState` - Flattens the message to only include the record after the NEW changes.  By default, Debezium will capture both the Old + New record state, but we only want the new one for CDC.
 
-`transforms.unwrap.drop.tombstones` - Creates a new column called `__deleted` to track when records are deleted.  Defaults to false unless a record is deleted.
+`transforms.unwrap.drop.tombstones` - When a record is deleted, 2 changes are captured by Debezium: 1 for the record as it was before the delete, and 1 that sets all the columns to null.  This parameter drops this record that has everything set to null before it sends it to Kafka.
 
-`transforms.unwrap.delete.handling.mode: rewrite` - When a record is deleted, Debezium will capture the record as it was and set the `__deleted` field to `true`.
+`transforms.unwrap.delete.handling.mode: rewrite` - Creates a new column called `__deleted`.  When a record is deleted, Debezium will capture the record as it was before the delete & set the `__deleted` field to `true`.
 
 `transforms.dropTopicPrefix.type: org.apache.kafka.connect.transforms.RegexRouter` - Used to update a Topic's name.
 

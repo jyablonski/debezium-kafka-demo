@@ -172,21 +172,21 @@ services:
     networks: 
       - dbz_network
 
-  python-producer:
-    build:
-      context: ./
-      dockerfile: python_producer/Dockerfile
-    image: python_producer:latest
-    container_name: python-producer
-    depends_on:
-      - postgres
-    restart: on-failure
-    volumes:
-      - ${PWD}/python_producer/example.log:/home/appuser/example.log
-    networks: 
-      - dbz_network
-    links:
-      - postgres:postgres
+  # python-producer:
+  #   build:
+  #     context: ./
+  #     dockerfile: python_producer/Dockerfile
+  #   image: python_producer:latest
+  #   container_name: python-producer
+  #   depends_on:
+  #     - postgres
+  #   restart: on-failure
+  #   volumes:
+  #     - ${PWD}/python_producer/example.log:/home/appuser/example.log
+  #   networks: 
+  #     - dbz_network
+  #   links:
+  #     - postgres:postgres
 
 networks:
   dbz_network:
