@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# postgres
 curl -i -X PUT -H "Content-Type:application/json" \
   http://localhost:8083/connectors/source-debezium-postgres/config \
   -d '{
@@ -22,12 +23,47 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "transforms.unwrap.delete.handling.mode":"rewrite",
         "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
         "transforms.dropTopicPrefix.regex":"asgard_postgres.dbz_schema.(.*)",
-        "transforms.dropTopicPrefix.replacement":"$1",
+        "transforms.dropTopicPrefix.replacement":"postgres.$1",
         "key.converter": "org.apache.kafka.connect.json.JsonConverter",
         "key.converter.schemas.enable": "false",
         "value.converter": "org.apache.kafka.connect.json.JsonConverter",
         "value.converter.schemas.enable": "false",
-        "log.retention.hours": "120"
+        "log.retention.hours": "120",
+        "poll.interval.ms": "30000"
+    }'
+
+# mysql
+# "snapshot.mode": "never" IS DIFFERENT THAN IN POSTGRES.  in mysql it will still read from as much of the binlog as it can. 
+# change to schema only
+curl -i -X PUT -H "Content-Type:application/json" \
+  http://localhost:8083/connectors/mysql-debezium/config \
+  -d '{
+        "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+        "database.hostname": "mysql",
+        "database.port": "3306",
+        "database.user": "debezium",
+        "database.password": "dbz",
+        "database.server.id": "43",
+        "database.server.name": "asgard",
+        "table.whitelist": "demo.movies,demo.second_movies",
+        "database.history.kafka.bootstrap.servers": "broker:29092",
+        "database.history.kafka.topic": "dbhistory.demo" ,
+        "decimal.handling.mode": "double",
+        "include.schema.changes": "false",
+        "snapshot.mode": "schema_only",
+        "transforms": "unwrap,dropTopicPrefix",
+        "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+        "transforms.unwrap.drop.tombstones": "true",
+        "transforms.unwrap.delete.handling.mode":"rewrite",
+        "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
+        "transforms.dropTopicPrefix.regex":"asgard.demo.(.*)",
+        "transforms.dropTopicPrefix.replacement":"mysql.$1",
+        "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "key.converter.schemas.enable": "false",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "value.converter.schemas.enable": "false",
+        "log.retention.hours": "120",
+        "poll.interval.ms": "30000"
     }'
 
 curl -i -X PUT -H "Accept:application/json" \
@@ -40,10 +76,10 @@ curl -i -X PUT -H "Accept:application/json" \
 		"value.converter.schemas.enable": "false",
 		"value.converter": "org.apache.kafka.connect.json.JsonConverter",
 		"tasks.max": "1",
-		"topics": "second_movies,movies",
+		"topics": "mysql.second_movies,postgres.second_movies",
 		"s3.region": "us-east-1",
 		"s3.bucket.name": "jyablonski-kafka-s3-sink",
-        "rotate.schedule.interval.ms": "60000",
+        "rotate.schedule.interval.ms": "300000",
         "timezone": "UTC",
 		"flush.size": "65536",
 		"storage.class": "io.confluent.connect.s3.storage.S3Storage",
@@ -53,7 +89,6 @@ curl -i -X PUT -H "Accept:application/json" \
         "partitioner.class": "io.confluent.connect.storage.partitioner.DefaultPartitioner",
         "transforms": "AddMetadata",
         "transforms.AddMetadata.type": "org.apache.kafka.connect.transforms.InsertField$Value",
-        "transforms.AddMetadata.offset.field": "_offset",
-        "transforms.AddMetadata.partition.field": "_partition"
+        "transforms.AddMetadata.offset.field": "_offset"
 	}
 '
