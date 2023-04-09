@@ -66,6 +66,41 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "poll.interval.ms": "30000"
     }'
 
+# optional 2nd mysql debezium connector to see if both can run at same time.
+# `mysql-debezium-test2`, `database.server.name`, `database.server.id`, `transforms.dropTopicPrefix.regex`, and `transforms.dropTopicPrefix.replacement`
+# must all be differnt than the first one
+# https://stackoverflow.com/questions/70504021/can-2-debezium-connectors-read-from-same-source-at-the-same-time#:~:text=Yes%2C%20you%20can%20run%20multiple,sharing%20state%20with%20one%20another.
+curl -i -X PUT -H "Content-Type:application/json" \
+  http://localhost:8083/connectors/mysql-debezium-test2/config \
+  -d '{
+        "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+        "database.hostname": "mysql",
+        "database.port": "3306",
+        "database.user": "debezium",
+        "database.password": "dbz",
+        "database.server.id": "44",
+        "database.server.name": "asgard2",
+        "table.whitelist": "demo.second_movies",
+        "database.history.kafka.bootstrap.servers": "broker:29092",
+        "database.history.kafka.topic": "dbhistory.demo" ,
+        "decimal.handling.mode": "double",
+        "include.schema.changes": "false",
+        "snapshot.mode": "schema_only",
+        "transforms": "unwrap,dropTopicPrefix",
+        "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+        "transforms.unwrap.drop.tombstones": "true",
+        "transforms.unwrap.delete.handling.mode":"rewrite",
+        "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
+        "transforms.dropTopicPrefix.regex":"asgard2.demo.(.*)",
+        "transforms.dropTopicPrefix.replacement":"mysql2.$1",
+        "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "key.converter.schemas.enable": "false",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "value.converter.schemas.enable": "false",
+        "log.retention.hours": "120",
+        "poll.interval.ms": "30000"
+    }'
+
 curl -i -X PUT -H "Accept:application/json" \
     -H  "Content-Type:application/json" http://localhost:8083/connectors/jyablonski-kafka-s3-sink-postgres/config \
     -d '

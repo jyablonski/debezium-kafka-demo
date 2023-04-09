@@ -3,6 +3,7 @@ GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicator' IDENTIFIED BY
 
 -- give user debezium with password dbz access to bin log events and access to flush commands for memory / cdc throughput stuff?
 GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium' IDENTIFIED BY 'dbz';
+GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium2' IDENTIFIED BY 'dbz';
 
 -- Create the database that we'll use to populate data and watch the effect in the binlog
 -- the 'mysqluser'@'%'; syntax means the mysqluser user from any valid host.
