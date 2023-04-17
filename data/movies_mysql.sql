@@ -3311,3 +3311,102 @@ VALUES (1, 'Once Upon a Time in the West', 1968, 'Italy', 'Western',
 
 -- END TABLE movies
 
+DROP TABLE IF EXISTS test_table1;
+CREATE TABLE `test_table1`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table1 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table2;
+CREATE TABLE `test_table2`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table2 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table3;
+CREATE TABLE `test_table3`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table3 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table4;
+CREATE TABLE `test_table4`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table4 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table5;
+CREATE TABLE `test_table5`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table5 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table6;
+CREATE TABLE `test_table6`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table6 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table7;
+CREATE TABLE `test_table7`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table7 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table8;
+CREATE TABLE `test_table8`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table8 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table9;
+CREATE TABLE `test_table9`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table9 (id, test_value)
+VALUES (1, 'aaa1');
+
+DROP TABLE IF EXISTS test_table10;
+CREATE TABLE `test_table10`
+(
+    `id`             int(11)       NOT NULL,
+    `test_value`     varchar(256)
+);
+
+INSERT INTO test_table10 (id, test_value)
+VALUES (1, 'aaa1');
