@@ -1,10 +1,10 @@
-.PHONY: docker-run
-docker-run:
-	@docker-compose up -d
+.PHONY: up
+up:
+	@docker compose up -d
 
-.PHONY: docker-down
-docker-down:
-	@docker-compose down
+.PHONY: down
+down:
+	@docker compose down
 
 .PHONY: ksql
 ksql:
