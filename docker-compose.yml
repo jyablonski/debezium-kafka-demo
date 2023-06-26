@@ -81,9 +81,11 @@ services:
       # CLASSPATH: /usr/share/java/kafka-connect-jdbc/*
         # jdbc driver has to be in the same place where connector gets installed (usr/share/confluent-hub-components/conluentinc-kafka-connect-jdbc
         # dont need classpath if you do the above ^, if you dont do above then you need to provide classpath
+        # confluent-hub install --no-prompt debezium/debezium-connector-mysql:1.9.3
     volumes:
       - $PWD/aws_credentials:/root/.aws/credentials
       - $PWD/jars/snowflake-jdbc-3.13.25.jar:/usr/share/confluent-hub-components/confluentinc-kafka-connect-jdbc/lib/snowflake-jdbc-3.13.25.jar
+      - $PWD/jars/TimestampConverter-1.2.4.jar:/usr/share/confluent-hub-components/debezium-debezium-connector-mysql/lib/TimestampConverter-1.2.4.jar
     command: 
       - bash 
       - -c 

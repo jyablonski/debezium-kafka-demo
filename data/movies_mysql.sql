@@ -28,6 +28,8 @@ CREATE TABLE `movies`
     `screenwriters`        varchar(256)  NOT NULL,
     `cinematographer`      varchar(256)  NOT NULL,
     `production_companies` varchar(256)  NOT NULL,
+    `created_at`           TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `created_at_datetime`       DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`movie_id`)
 );
 
@@ -45,6 +47,8 @@ CREATE TABLE `second_movies`
     `screenwriters`        varchar(256)  NOT NULL,
     `cinematographer`      varchar(256)  NOT NULL,
     `production_companies` varchar(256)  NOT NULL,
+    `created_at`           TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `created_at_wtf`       DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`movie_id`)
 );
 
