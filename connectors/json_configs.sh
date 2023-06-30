@@ -128,7 +128,7 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "transforms.unwrap.delete.handling.mode":"rewrite",
         "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
         "transforms.dropTopicPrefix.regex":"asgard2.demo.(.*)",
-        "transforms.dropTopicPrefix.replacement":"mysql2.$1",
+        "transforms.dropTopicPrefix.replacement":"mysql.$1",
         "transforms.TimestampConverter1.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
         "transforms.TimestampConverter1.field": "created_at_datetime",
         "transforms.TimestampConverter1.format": "yyyy-MM-dd HH:mm:ssX",
@@ -207,7 +207,13 @@ curl -i -X PUT -H "Accept:application/json" \
 		"schema.generator.class": "io.confluent.connect.storage.hive.schema.DefaultSchemaGenerator",
 		"schema.compatibility": "NONE",
         "partitioner.class": "io.confluent.connect.storage.partitioner.DefaultPartitioner",
-        "transforms": "AddMetadata",
+        "transforms": "AddMetadata,insertTimestamp,formatTimestamp",
+        "transforms.insertTimestamp.timestamp.field":"cdc_created_at", 
+        "transforms.insertTimestamp.type":"org.apache.kafka.connect.transforms.InsertField$Value",
+        "transforms.formatTimestamp.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+        "transforms.formatTimestamp.field": "cdc_created_at",
+        "transforms.formatTimestamp.format": "yyyy-MM-dd HH:mm:ssX",
+        "transforms.formatTimestamp.target.type": "string",
         "transforms.AddMetadata.type": "org.apache.kafka.connect.transforms.InsertField$Value",
         "transforms.AddMetadata.offset.field": "_offset"
 	}

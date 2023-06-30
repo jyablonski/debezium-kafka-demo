@@ -28,6 +28,8 @@ CREATE TABLE `movies`
     `screenwriters`        varchar(256)  NOT NULL,
     `cinematographer`      varchar(256)  NOT NULL,
     `production_companies` varchar(256)  NOT NULL,
+    `fake_price`           decimal(10, 2)  NOT NULL DEFAULT 10.22,
+    `fake_price_three`     decimal(9, 3)  NOT NULL DEFAULT 100.333,
     `created_at`           TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `created_at_datetime`       DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`movie_id`)
