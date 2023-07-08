@@ -1,15 +1,20 @@
--- no clue wtf this is for
-GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicator' IDENTIFIED BY 'replpass';
+CREATE USER 'replicator'@'%' IDENTIFIED BY 'replpass';
+CREATE USER 'debezium'@'%' IDENTIFIED BY 'dbz';
+CREATE USER 'debezium2'@'%' IDENTIFIED BY 'dbz';
+CREATE USER 'ghost_user'@'%' IDENTIFIED BY 'password';
 
--- give user debezium with password dbz access to bin log events and access to flush commands for memory / cdc throughput stuff?
-GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium' IDENTIFIED BY 'dbz';
-GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium2' IDENTIFIED BY 'dbz';
+GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicator'@'%';
+GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium'@'%';
+GRANT SELECT, RELOAD, SHOW DATABASES, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'debezium2'@'%';
+GRANT SUPER, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'ghost_user'@'%';
+
 
 -- Create the database that we'll use to populate data and watch the effect in the binlog
 -- the 'mysqluser'@'%'; syntax means the mysqluser user from any valid host.
 -- GRANT ALL PRIVILEGES ON books.authors  TO 'mysqluser'@'localhost'; this would limit access to that user to only locally.
 CREATE DATABASE demo;
 GRANT ALL PRIVILEGES ON demo.* TO 'mysqluser'@'%';
+GRANT ALL PRIVILEGES ON demo.* TO 'ghost_user'@'%';
 
 use demo;
 
@@ -17,6 +22,7 @@ use demo;
 DROP TABLE IF EXISTS movies;
 CREATE TABLE `movies`
 (
+    `id`                   int(11)       AUTO_INCREMENT,
     `movie_id`             int(11)       NOT NULL,
     `title`                varchar(256)  NOT NULL,
     `release_year`         int(11)       NOT NULL,
@@ -32,7 +38,7 @@ CREATE TABLE `movies`
     `fake_price_three`     decimal(9, 3)  NOT NULL DEFAULT 100.333,
     `created_at`           TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `created_at_datetime`       DATETIME DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (`movie_id`)
+    PRIMARY KEY (`id`)
 );
 
 DROP TABLE IF EXISTS second_movies;
