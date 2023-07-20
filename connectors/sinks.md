@@ -1,5 +1,5 @@
 ### Redshift Sink
-Adding new columns + deleting records worked fine out of the box.  Deleting a column fucked shit up because it sets everything to NULL
+Adding new columns + deleting records worked fine out of the box. Deleting a column fucked shit up because it sets everything to NULL
 
 It adds a Primary key index into the schema as well for each table.
 
