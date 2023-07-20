@@ -1,23 +1,16 @@
-name: feature request
-description: something new
+name: Feature Request
+description: Suggest Something New
 body:
   - type: markdown
     attributes:
       value: |
-         this is for issues for `my project`
+         This is a template Feature Request Page `my project`
 
          [project link]: https://github.com
-  - type: input
-    id: search
-    attributes:
-      label: search you tried in the issue tracker
-      placeholder: ...
-    validations:
-      required: true
   - type: textarea
     id: freeform
     attributes:
-      label: describe your actual problem
+      label: Describe your Feature Request
       placeholder: 'I want to do x'
     validations:
       required: true
