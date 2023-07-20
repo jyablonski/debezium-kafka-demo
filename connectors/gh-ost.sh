@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+# MySQL only
 # 2023-07-08 confirmed ghost doesnt seem to fuck w/ the debezium connector after an alter table migration and
 # load the 1000 existing records into debezium, it will only track new inserts as expected.
+# and you just delete the ghost postpone flag file once the migration is done to complete the cutover
 gh-ost \
 --user="ghost_user" \
 --password="password" \

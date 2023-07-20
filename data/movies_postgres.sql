@@ -17,9 +17,10 @@ ALTER ROLE postgres WITH REPLICATION;
 DROP TABLE IF EXISTS movies;
 CREATE TABLE movies
 (
-    movie_id             int       PRIMARY KEY,
+    id                   serial   primary key,
+    movie_id             int      NOT NULL,
     title                varchar  NOT NULL,
-    release_year         int       NOT NULL,
+    release_year         int      NOT NULL,
     country              varchar  NOT NULL,
     genres               varchar  NOT NULL,
     actors               varchar  NOT NULL,
@@ -33,12 +34,13 @@ CREATE TABLE movies
 DROP TABLE IF EXISTS second_movies;
 CREATE TABLE second_movies
 (
-    movie_id             int       PRIMARY KEY,
+    id                   serial   primary key,
+    movie_id             int      NOT NULL,
     title                varchar  NOT NULL,
-    release_year         int       NOT NULL,
+    release_year         int      NOT NULL,
     country              varchar  NOT NULL,
     genres               varchar  NOT NULL,
-    actors               varchar NOT NULL,
+    actors               varchar  NOT NULL,
     directors            varchar  NOT NULL,
     composers            varchar  NOT NULL,
     screenwriters        varchar  NOT NULL,
