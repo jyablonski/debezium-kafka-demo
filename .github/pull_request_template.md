@@ -1,6 +1,11 @@
 ### Description
-This will be a pull request template
+Template Description for the PR
 
-[] - Did this get a version bump?
-[] - Did you add tests
-[] - Was xyz added in this PR
+## Added
+- x
+
+## Updated
+- y
+
+## Deleted
+- z
