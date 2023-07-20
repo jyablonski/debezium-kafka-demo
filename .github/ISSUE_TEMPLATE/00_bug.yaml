@@ -1,0 +1,23 @@
+name: bug report
+description: something went wrong
+body:
+  - type: markdown
+    attributes:
+      value: |
+         this is for issues for `my project`
+
+         [project link]: https://github.com
+  - type: input
+    id: search
+    attributes:
+      label: search you tried in the issue tracker
+      placeholder: ...
+    validations:
+      required: true
+  - type: textarea
+    id: freeform
+    attributes:
+      label: describe your issue
+      placeholder: 'x happened while i was doing y'
+    validations:
+      required: true
