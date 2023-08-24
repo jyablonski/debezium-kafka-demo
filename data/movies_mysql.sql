@@ -60,6 +60,24 @@ CREATE TABLE `second_movies`
     PRIMARY KEY (`movie_id`)
 );
 
+DROP TABLE IF EXISTS PostStaySurveyModeration;
+CREATE TABLE `PostStaySurveyModeration`
+(
+    `id`                           int(11)       AUTO_INCREMENT,
+    `postStaySurveyId`             int(11)       NOT NULL,
+    `machineReviewStatus`          enum('REJECTED', 'NEEDS_HUMAN_REVIEW', 'APPROVED'),
+    `humanReviewStatus`            enum('REJECTED', 'APPROVED'),
+    `campspotResponse`             enum('REJECTED', 'APPROVED'),
+    `campspotInternalComment`      text  NOT NULL,
+    `parkResponse`                 enum('REJECTED', 'APPROVED'),
+    `parkComment`                  varchar(512)  NOT NULL,
+    `viewable`                     tinyint(1),
+    `language`                     varchar(16)  NOT NULL,
+    `uuid`                         varchar(36)  NOT NULL,
+    `created`                      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `modified`                     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+);
 
 -- Inserting 919 rows into movies
 -- Insert batch #1
