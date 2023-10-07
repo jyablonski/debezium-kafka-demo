@@ -1,0 +1,52 @@
+# mysql timestamp column types get correctly stored as timestamps in kafka w/ json
+# mysql datetime column ypes get stored as unix timestamps in kafka w/ json
+
+# without the timestamp converter
+{
+	"id": 2,
+	"movie_id": 2,
+	"title": "try 3",
+	"release_year": 2008,
+	"country": "United States",
+	"genres": "Adventure",
+	"actors": "Steven Strait|Camilla Belle|Cliff Curtis|Omar Sharif|Tim Barlow|Marco Khan|Reece Ritchie|Mo Zinal",
+	"directors": "Roland Emmerich",
+	"composers": "Harald Kloser|Thomas Wanker",
+	"screenwriters": "Roland Emmerich|Harald Kloser|John Orloff|Matthew Sand|Robert Rodat",
+	"cinematographer": "Ueli Steiger",
+	"production_companies": "Warner Bros. Pictures|Legendary Pictures|Centropolis",
+	"fake_price": 10.22,
+	"fake_price_three": 100.333,
+	"created_at": "2023-10-07T16:41:07Z",
+	"created_at_datetime": 1696696867000,
+	"__deleted": "false"
+}
+
+# with the converter
+{
+	"id": 3,
+	"movie_id": 3,
+	"title": "It's Always Fair Weather try 4",
+	"release_year": 1955,
+	"country": "United States",
+	"genres": "Musical|Comedy",
+	"actors": "Gene Kelly|Cyd Charisse|Dan Dailey|Dolores Gray|Michael Kidd|David Burns|Jay C. Flippen|Hal March|Steve Mitchell",
+	"directors": "Stanley Donen|Gene Kelly",
+	"composers": "Andre Previn",
+	"screenwriters": "Adolph Green|Betty Comden",
+	"cinematographer": "Robert Bronner",
+	"production_companies": "Metro-Goldwyn-Mayer",
+	"fake_price": 10.22,
+	"fake_price_three": 100.333,
+	"created_at": "2023-10-07T16:41:07Z",
+	"created_at_datetime": "2023-10-07 16:41:07Z",
+	"__deleted": "false"
+}
+
+# notice how the 2 timestamps still dont perfectly match
+# if you try putting a T in the format to match the other timestamp - you get this error
+#   org.apache.kafka.connect.errors.ConnectException: org.apache.kafka.common.config.ConfigException: Invalid value 
+#   java.lang.IllegalArgumentException: Illegal pattern character 'T' for configuration TimestampConverter requires
+#   a SimpleDateFormat-compatible pattern for string timestamps:
+
+# thankfully, both will get read fine into snowflake as timestamp columns

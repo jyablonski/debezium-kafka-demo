@@ -10,3 +10,4 @@ scripts/snowflake_sinkz.sh
 *_snowpipe.sql
 kafka_user/
 zz
+python_mysql/

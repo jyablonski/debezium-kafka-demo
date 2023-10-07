@@ -71,6 +71,7 @@ CREATE TABLE `PostStaySurveyModeration`
     `campspotInternalComment`      text  NOT NULL,
     `parkResponse`                 enum('REJECTED', 'APPROVED'),
     `parkComment`                  varchar(512)  NOT NULL,
+    `parkResponseDate`             datetime,
     `viewable`                     tinyint(1),
     `language`                     varchar(16)  NOT NULL,
     `uuid`                         varchar(36)  NOT NULL,
