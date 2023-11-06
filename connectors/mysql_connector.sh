@@ -87,3 +87,44 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "log.retention.hours": "120",
         "database.allowPublicKeyRetrieval":"true"
     }'
+
+## mine
+curl -i -X PUT -H "Content-Type:application/json" \
+  http://localhost:8083/connectors/mysql-debezium-test2/config \
+  -d '{
+        "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+        "database.hostname": "mysql",
+        "database.port": "3306",
+        "database.user": "debezium",
+        "database.password": "dbz",
+        "database.server.id": "44",
+        "database.server.name": "asgard2",
+        "table.whitelist": "demo.movies,demo.second_movies",
+        "database.history.kafka.bootstrap.servers": "broker:29092",
+        "database.history.kafka.topic": "dbhistory.demo" ,
+        "decimal.handling.mode": "double",
+        "include.schema.changes": "false",
+        "snapshot.mode": "schema_only",
+        "transforms": "dropTopicPrefix,TimestampConverter1,TimestampConverter2,TimestampConverter3",
+        "transforms.dropTopicPrefix.type":"org.apache.kafka.connect.transforms.RegexRouter",
+        "transforms.dropTopicPrefix.regex":"asgard2.demo.(.*)",
+        "transforms.dropTopicPrefix.replacement":"mysql.$1",
+        "transforms.TimestampConverter1.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+        "transforms.TimestampConverter1.field": "created_at_datetime",
+        "transforms.TimestampConverter1.format": "yyyy-MM-dd HH:mm:ssX",
+        "transforms.TimestampConverter1.target.type": "string",
+        "transforms.TimestampConverter2.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+        "transforms.TimestampConverter2.field": "created_at_wtf",
+        "transforms.TimestampConverter2.format": "yyyy-MM-dd HH:mm:ssX",
+        "transforms.TimestampConverter2.target.type": "string",
+        "transforms.TimestampConverter3.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+        "transforms.TimestampConverter3.field": "this_doesnt_exist",
+        "transforms.TimestampConverter3.format": "yyyy-MM-dd HH:mm:ssX",
+        "transforms.TimestampConverter3.target.type": "string",
+        "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "key.converter.schemas.enable": "false",
+        "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+        "value.converter.schemas.enable": "false",
+        "log.retention.hours": "120",
+        "database.allowPublicKeyRetrieval":"true"
+    }'
