@@ -1,4 +1,4 @@
-name: Push-to-EC2
+name: Deploy
 
 # Trigger deployment only on push to master branch
 # on:
@@ -36,3 +36,17 @@ jobs:
     - name: deploy
       run: |
         echo hello world prod
+
+  second-job:
+    needs: dev-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+          SLACK_MESSAGE: 'Debezium Kafka Demo Deployed to xxx'
+          SLACK_TITLE: Deploy Successful
+          SLACK_USERNAME: GitHub Actions
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
