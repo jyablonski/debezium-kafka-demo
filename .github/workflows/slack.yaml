@@ -3,9 +3,9 @@ name: Slack Pull Request Open Notification
 on:
   pull_request:
     types: [opened, reopened]
-    push:
-      branches:
-        - master
+  push:
+    branches:
+      - master
 
 jobs:
   build:
