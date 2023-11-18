@@ -3,9 +3,6 @@ name: Jacob's Discord Notification
 on:
   pull_request:
     types: [opened, reopened]
-  push:
-    branches:
-      - master
 
 jobs:
   discord_notification:
