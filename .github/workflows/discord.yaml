@@ -1,0 +1,17 @@
+name: Jacob's Discord Notification
+
+on:
+  pull_request:
+    types: [opened, reopened]
+  push:
+    branches:
+      - master
+
+jobs:
+  discord_notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update Discord
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK_URL }}
