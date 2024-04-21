@@ -1,9 +1,5 @@
 name: Deploy
 
-# Trigger deployment only on push to master branch
-# on:
-#   push:
-#     branches: [master, staging, development]
 on:
   pull_request:
     types: [ closed ]
