@@ -85,7 +85,8 @@ curl -i -X PUT -H "Content-Type:application/json" \
         "value.converter": "org.apache.kafka.connect.json.JsonConverter",
         "value.converter.schemas.enable": "false",
         "log.retention.hours": "120",
-        "database.allowPublicKeyRetrieval":"true"
+        "database.allowPublicKeyRetrieval":"true",
+        "database.history.skip.unparseable.ddl": "true"
     }'
 
 ## mine
