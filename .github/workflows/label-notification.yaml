@@ -1,0 +1,29 @@
+name: Slack Notification on Ephemeral Label
+
+on:
+  issues:
+    types: [labeled]
+  pull_request:
+    types: [labeled]
+
+jobs:
+  send-slack-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for specific label
+        id: check_label
+        run: |
+          if [[ "${{ github.event.label.name }}" == "Ephemeral" ]]; then
+            echo "Label found"
+            echo "send_message=true" >> $GITHUB_ENV
+          else
+            echo "Label not found"
+            echo "send_message=false" >> $GITHUB_ENV
+          fi
+
+      - name: Send Slack notification
+        if: env.send_message == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"A new pull request/issue with the label \"Ephemeral\" was just added!"}' $SLACK_WEBHOOK_URL
